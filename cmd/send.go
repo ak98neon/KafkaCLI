@@ -106,7 +106,7 @@ func init() {
 
 	sendCmd.Flags().IntP("count", "c", 1, "Count of message that will be send")
 
-	sendCmd.Flags().StringP("broker", "b", "localhost:5432", "Set kafka broker")
+	sendCmd.Flags().StringP("broker", "b", "localhost:9092", "Set kafka broker")
 	sendCmd.Flags().StringP("topic", "t", "", "Topic name")
 	sendCmd.Flags().StringP("client", "l", "client", "Client name")
 
